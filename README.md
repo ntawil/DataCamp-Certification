@@ -12,11 +12,11 @@
 -[Limitations](#limitations)  
 -[References](#references)  
 ### Project Overview
-#### The setup for this project is simple. I am a Data Analyst at a fictional company who primarily sells pens. My director assigned me a data analysis task based on a business goal to better understand our customers. By cleaning and analyzing customer data, my task was to create an actionable recommendation to the business stakeholders, for the ultimate goal of increasing profit.
+#### The setup for this project is simple. I am a Data Analyst at a fictional company "Pens and Printers" who primarily sells pens. My director assigned me a data analysis task based on a business goal to better understand our customers. By cleaning and analyzing customer data, my task was to create an actionable recommendation to the business stakeholders, for the ultimate goal of increasing profit.
 ### Data Source
-> #TODO
+> 1 dataset containing sales data on pens sold in a given year. Most notably, the sales_method field from the dataset notes how a customer was reached by Pens and Printers: email, phone call, or both.
 ### Tools
-> #TODO
+> I used only Python and packages such as pandas and NumPy to manipulate the data, and seaborn to graph and analye results.
 ### Data Cleaning
 > #TODO
 ### Exploratory Analysis
