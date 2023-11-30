@@ -16,9 +16,12 @@
 ### Data Source
 > 1 dataset containing sales data on pens sold in a given year. Most notably, the sales_method field from the dataset notes how a customer was reached by Pens and Printers: email, phone call, or both.
 ### Tools
-> I used only Python and packages such as pandas and NumPy to manipulate the data, and seaborn to graph and analye results.
+> I used Python with packages pandas and NumPy to manipulate the data, and seaborn to graph and analyze the results. DataCamp provided an online IDE for processing.
 ### Data Cleaning
-> Initial cleaning techniques included summarizing columns and understanding datatypes, finding null values and numeric outliers. Several columns had null values which I converted to 0's or removed (depend
+> Initial cleaning techniques included finding null values, summarizing columns and understanding datatypes, and numeric outliers. For example
+> The years_as_customer field was meant to hold integer values representing the tenure of a given customer. The company was founded in 1984, so any customer older than 39 years (inclusive), is an anomoly and removed from the dataset.
+> The customer_id field is a unique identifier per customer, so I ensured the dataset contained no duplicates of this field.
+> The sales_method field should contain only 3 text options. Using a countplot, I could quickly visualize the counts of every unique value in this field, and noticed there were more than 3. These extras were simply mispellings of the intended 3 options, so a simple replace method fixed this.
 ### Exploratory Analysis
 > I explored the dataset by graphing various fields and their relationships to other fields.
 >  Once this was done, I noticed the dataset included sales where items were sold but no profit was recorded. This could theoretically happen for 2 reasons: data/accounting error or a discount/promotion. Since I didn't have that context and it was a proportionally small number of records with items sold and zero profit, I chose to keep these rows in the dataset instead of removing them as anamolies, as they were not substantially significant to summary statistics.
