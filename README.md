@@ -18,14 +18,16 @@
 ### Tools
 > I used only Python and packages such as pandas and NumPy to manipulate the data, and seaborn to graph and analye results.
 ### Data Cleaning
-> #TODO
+> Initial cleaning techniques included summarizing columns and understanding datatypes, finding null values and numeric outliers. Several columns had null values which I converted to 0's or removed (depend
 ### Exploratory Analysis
-> #TODO
+> I explored the dataset by graphing various fields and their relationships to other fields.
+>  Once this was done, I noticed the dataset included sales where items were sold but no profit was recorded. This could theoretically happen for 2 reasons: data/accounting error or a discount/promotion. Since I didn't have that context and it was a proportionally small number of records with items sold and zero profit, I chose to keep these rows in the dataset instead of removing them as anamolies, as they were not substantially significant to summary statistics.
 ### Results and Insights
 > #TODO
 ### Recommendations
 > #TODO
+> Future analysis would include exploring the relationship between revenue and the number of times a customer visited Pens and Printers website (represented by nb_site_visits), or if a new versus retained customer (represented by years_as_customer) was more/less likely to make a purchase.
 ### Limitations
-> #TODO
+> The most significant limitation of this project is the amount of context. Humans are not numbers, and we do not interact with the world in that way. Numbers and the analysis of them indicate patterns, not behavior
 ### References
-> #TODO
+> This project setup and dataset was provided by DataCamp for the purposes of demonstrating my skills and knowledge, attained from their course "Data Analysis with Python".
