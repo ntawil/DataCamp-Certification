@@ -12,11 +12,13 @@
 -[Limitations](#limitations)  
 -[References](#references)  
 ### Project Overview
-#### The setup for this project is simple. I am a Data Analyst at a fictional company "Pens and Printers" who primarily sells pens. My director assigned me a data analysis task based on a business goal to better understand our customers. By cleaning and analyzing customer data, my task was to create an actionable recommendation to the business stakeholders, for the ultimate goal of increasing profit.
+#### The setup for this project is simple. I am a Data Analyst at a fictional company "Pens and Printers" who primarily sells pens. My director assigned me a data analysis task based on a business goal to better understand our customers. By cleaning and analyzing customer data, my task was to create an actionable recommendation to the business stakeholders, for the ultimate goal of increasing revenue. 
 ### Data Source
 > 1 dataset containing sales data on pens sold in a given year. Most notably, the sales_method field from the dataset notes how a customer was reached by Pens and Printers: email, phone call, or both.
 ### Tools
-> I used Python with packages pandas and NumPy to manipulate the data, and seaborn to graph and analyze the results. DataCamp provided an online IDE for processing.
+> - Python with packages pandas and NumPy to manipulate the data
+> - Seaborn to graph and analyze the results
+> - DataCamp provided an online IDE for processing
 ### Data Cleaning
 > Initial cleaning techniques included finding null values, summarizing columns and understanding datatypes, and numeric outliers. For example:
 > - The years_as_customer field was meant to hold integer values representing the tenure of a given customer. The company was founded in 1984, so any customer older than 39 years (inclusive), is an anomoly and removed from the dataset.
@@ -24,7 +26,13 @@
 > - The sales_method field should contain only 3 text options. Using a countplot, I could quickly visualize the counts of every unique value in this field, and noticed there were more than 3. These extras were simply mispellings of the intended 3 options, so a simple replace method fixed this.
 ### Exploratory Analysis
 > I explored the dataset by graphing various fields and their relationships to other fields.
->  Once this was done, I noticed the dataset included sales where items were sold but no profit was recorded. This could theoretically happen for 2 reasons: data/accounting error or a discount/promotion. Since I didn't have that context and it was a proportionally small number of records with items sold and zero profit, I chose to keep these rows in the dataset instead of removing them as anamolies, as they were not substantially significant to summary statistics.
+> 1. Defining the Customer Base
+> - data
+> 2. Sales Methods
+> - other data
+> 3. Sales Performance?
+> - Fields for revenue and nb_sold: I noticed the dataset included sales where items were sold but no profit was recorded. This could theoretically happen for 2 reasons: data/accounting error or a discount/promotion. Since I didn't have that context and it was a proportionally small number of records with items sold and zero profit, I chose to keep these rows in the dataset instead of removing them as anamolies, as they were not substantially significant to summary statistics.
+> - 
 ### Results and Insights
 > #TODO
 ### Recommendations
