@@ -44,10 +44,17 @@ In this scenario, a new product was released 6 weeks ago, and the company wants 
 > 2. Sales Methods
 > - 3 unique sales methods: call, email, email+call
 > - A countplot shows that 49% of sales are email only, 67% of all sales used email to some extent.
-> - The sales team provided time estimations for each occurence of a sales method: mail = 0 min | email+call = 10 min | call = 30 min. By grouping each sale by sales method and taking the sum, a countplot shows total hours and total revenue per sales_method.
+> - The sales team provided time estimations for each occurence of a sales method:
+>   - mail = 0 min
+>   - email+call = 10 min
+>   - call = 30 min.
+> By grouping each sale by sales method and taking the sum, a countplot shows total hours and total revenue per sales_method.
 > 3. Sales Method Performance over 6 weeks
 > - Narrowing in on revenue, I created a scatterplot of each sale grouped by weeks_since_launch (6 total groups), and colored each point by sales_method. This showed distinct revenue growth patterns for each sales_method individually, and as part of the overall sales strategy.
-> - The average sale generated more revenue every week for each sales method, where email+call outperformed email and call respectively. Combining with previous explorations, I noted the average revenue per sales_method transaction: email = $90.00 | email + call = $158.70 | call = $45.90
+> - The average sale generated more revenue every week for each sales method, where email+call outperformed email and call respectively. Combining with previous explorations, I noted the average revenue per sales_method transaction:
+>   - email = $90.00
+>   - email + call = $158.70
+>   - call = $45.90
 
 ### Results and Insights
 > #TODO
