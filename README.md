@@ -25,10 +25,10 @@
 > - The customer_id field is a unique identifier per customer, so I ensured the dataset contained no duplicates of this field.
 > - The sales_method field should contain only 3 text options. Using a countplot, I could quickly visualize the counts of every unique value in this field, and noticed there were more than 3. These extras were simply mispellings of the intended 3 options, so a simple replace method fixed this.
 ### Exploratory Analysis
-> I explored the dataset by graphing various fields and their relationships to other fields.
+> I explored the dataset by graphing various fields and their relationships to other fields. Insights from these analyses can be found in the [Results and Insights](#results-and-insights) section.
 > 1. Defining the Customer Base
 > - A histograph of years_as_customer shows the wide majority of customers acquired within 1-8 years. For a 38 year old company, this demonstrates recent growth.
-> - I added a new field to the dataset, "region", which was a qualitative value based on the customer's state. For example, any customer from Minnesota or Michigan would be determined "midwest." Using a barchart for region, I identified the southwest to have less customers than the other 4 regions by an average ~54.89%. More on this in [Results and Insights](#results-and-insights).  
+> - I added a new field to the dataset, "region", which was a qualitative value based on the customer's state. For example, any customer from Minnesota or Michigan would be determined "midwest." Using a barchart for region, I identified the southwest to have less customers than the other 4 regions by an average ~54.89%.
 > 2. Sales Methods
 > - other data
 > 3. Sales Performance?
