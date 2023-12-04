@@ -27,7 +27,8 @@
 ### Exploratory Analysis
 > I explored the dataset by graphing various fields and their relationships to other fields.
 > 1. Defining the Customer Base
-> - data
+> - A histograph of years_as_customer shows the wide majority of customers acquired within 1-8 years. For a 38 year old company, this demonstrates recent growth.
+> - I added a new field to the dataset, "region", which was a qualitative value based on the customer's state. For example, any customer from Minnesota or Michigan would be determined "midwest." Using a barchart for region, I identified the southwest to have less customers than the other 4 regions by an average ~54.89%. More on this in [Results and Insights](#results-and-insights).  
 > 2. Sales Methods
 > - other data
 > 3. Sales Performance?
