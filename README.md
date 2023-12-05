@@ -61,11 +61,11 @@ In this scenario, a new product was released 6 weeks ago, and the company wants 
 > 2. The impact for calling a customer who received an email increased the average email transaction by 76% ($90 to $158), though a salesperson will spend ~10 minutes per emailed customer transaction.
 > 3. Calling customers without an email is time consuming and the least efficient sales method in terms of revenue per transaction, and second worst in terms of total number of sales.
 > 4. ~$600,000 potential revenue was missed for every sale made by calling customers without first sending an email. Here is how I calculated estimation. This method is called "bootstrapping".
-> - Randomly selected Email + Call Transactions and recorded their revenue
-> - Calculate the mean of those revenues
-> - Repeat the above steps 1000 times
-> - Calculate the mean of those 1000 means. I got $158.70, which is equal to the average email+call revenue, but caclulated with different methods.
-> - Replacing every call revenue with this new projected revenue of $158.70, the total call revenue increases from the existing $200,000, to a whopping $800,000.
+>  - Randomly selected Email + Call Transactions and recorded their revenue
+>  - Calculate the mean of those revenues
+>  - Repeat the above steps 1000 times
+>  - Calculate the mean of those 1000 means. I got $158.70, which is equal to the average email+call revenue, but caclulated with different methods.
+>  - Replacing every call revenue with this new projected revenue of $158.70, the total call revenue increases from the existing $200,000, to a whopping $800,000.
 
 ### Recommendations
 > Future analysis would include exploring the relationship between revenue and the number of times a customer visited Pens and Printers website (represented by nb_site_visits), or if a new versus retained customer (represented by years_as_customer) was more/less likely to make a purchase.
