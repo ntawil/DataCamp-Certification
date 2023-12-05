@@ -57,14 +57,22 @@ In this scenario, a new product was released 6 weeks ago, and the company wants 
 >   - call = $45.90
 
 ### Results and Insights
-> #TODO
+> 1. Emailing customers reached the most customers and generated the most total revenue: a wide net for medium revenue per transaction.
+> 2. The impact for calling a customer who received an email increased the average email transaction by 76% ($90 to $158), though a salesperson will spend ~10 minutes per emailed customer transaction.
+> 3. Calling customers without an email is time consuming and the least efficient sales method in terms of revenue per transaction, and second worst in terms of total number of sales.
+> 4. ~$600,000 potential revenue was missed for every sale made by calling customers without first sending an email. Here is how I calculated estimation. This method is called "bootstrapping".
+> - Randomly selected Email + Call Transactions and recorded their revenue
+> - Calculate the mean of those revenues
+> - Repeat the above steps 1000 times
+> - Calculate the mean of those 1000 means. I got $158.70, which is equal to the average email+call revenue, but caclulated with different methods.
+> - Replacing every call revenue with this new projected revenue of $158.70, the total call revenue increases from the existing $200,000, to a whopping $800,000.
 
 ### Recommendations
-> #TODO
 > Future analysis would include exploring the relationship between revenue and the number of times a customer visited Pens and Printers website (represented by nb_site_visits), or if a new versus retained customer (represented by years_as_customer) was more/less likely to make a purchase.
 
 ### Limitations
-> The most significant limitation of this project is the amount of context. Humans are not numbers, and we do not interact with the world in that way. Numbers and the analysis of them indicate patterns, not behavior
+> Each sales method increases average revenue per transaction over the 6 weeks tracked. Given that window, one might assume an average weekly growth, but we would assume a sales cycle would eventually taper, then fall. A full sales cycle might show which sales_method performs better/worse at different stages of the cycle.
+> I would like to reccomend the most efficient sales_method between email and email+call. We know that an email gets more customers, less revenue per transaction, but 0 man hours from a salesperson. To determine which method is best, we need to know the exact cost to employ salespeople. Of course, a sales team would need to be involved to create the email in the first place, and there are other considerations to laying off an entire department.
 
 ### References
 > This project setup and dataset was provided by DataCamp for the purposes of demonstrating my skills and knowledge, attained from their course "Data Analysis with Python".
