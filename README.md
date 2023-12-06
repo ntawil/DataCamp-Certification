@@ -1,7 +1,7 @@
 # Sales Data Analysis of company "Pens and Printers": DataCamp Certification
 #### This project outlines my final project that I successfully completed to earn a certification through DataCamp as a Professional Data Analyst. The Certification required multiple choice technical exams and this project as a practical exam, intended to simulate a job scenario.
 
-Please use the attached presentation [An Analysis of Sales Metrics.pptx](ntawil/DataCamp-Certification/An Analysis of Sales Metrics.pptx")as a visual aid, as you read my logic and reasoning below.
+Please use the attached presentation "An Analysis of Sales Metrics.pptx" as a visual aid, as you read my logic and reasoning below.
 
 ## Table of Contents
 -[Project Overview](#project-overview)  
