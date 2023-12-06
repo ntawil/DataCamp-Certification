@@ -66,7 +66,7 @@ In this scenario, a new product was released 6 weeks ago, and the company wants 
 >  - Repeat the above steps 1000 times
 >  - Calculate the mean of those 1000 means. I got $158.70, which is equal to the average email+call revenue, but caclulated with different methods.
 >  - Replacing every call revenue with this new projected revenue of $158.70, the total call revenue increases from the existing $200,000, to a whopping $800,000.
-
+  
 ### Recommendations
 > Future analysis would include exploring the relationship between revenue and the number of times a customer visited Pens and Printers website (represented by nb_site_visits), or if a new versus retained customer (represented by years_as_customer) was more/less likely to make a purchase.
 
